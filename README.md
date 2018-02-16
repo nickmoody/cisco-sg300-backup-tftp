@@ -5,7 +5,7 @@ Author - Nick Moody - netassured.co.uk
 
 # REQUIRMENTS
 1) Netmiko installed https://github.com/ktbyers/netmiko
-2) Cisco SG300 switches must have ip 'ssh password-auth'configured to prevent the username being requested twice
+2) Cisco SG300 switches must have 'ip ssh password-auth' configured to prevent the username being requested twice
 3) TFTP server to send the running configs too
 
 
