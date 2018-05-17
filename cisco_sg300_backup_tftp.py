@@ -28,8 +28,8 @@ month=time.strftime('%m')
 year=time.strftime('%Y')
 today=day+"-"+month+"-"+year+"-"+hour+minute
 
-# Define the list of switches to be backed up. IP addresses can be used in place of hostnames. For a large a number of switches
-# it might be neater to use an external file then import into the script
+''' Define the list of switches to be backed up. IP addresses can be used in place of hostnames. For a large a number of switches
+it might be neater to use an external file then import into the script'''
 cisco_sg300_01 = { 'device_type':'cisco_s300', 'ip':'cisco_sg300_01', 'username':'cisco', 'password':'cisco'}
 cisco_sg300_02 = { 'device_type':'cisco_s300', 'ip':'cisco_sg300_02', 'username':'cisco', 'password':'cisco'}
 cisco_sg300_03 = { 'device_type':'cisco_s300', 'ip':'cisco_sg300_03', 'username':'cisco', 'password':'cisco'}
